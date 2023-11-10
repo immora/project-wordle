@@ -2,7 +2,7 @@
   Theme and global variables
 */
 html {
-  overflow-y: scroll;
+  overflow: hidden;
 
   --game-spacing: 32px;
   --header-height: 4rem;
@@ -22,6 +22,7 @@ html {
 */
 body {
   font-family: sans-serif;
+  overflow: hidden;
 }
 
 @media (max-height: 600px) {

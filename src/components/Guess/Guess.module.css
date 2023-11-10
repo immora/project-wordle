@@ -1,0 +1,33 @@
+.Guess {
+  display: grid;
+  grid-template-columns: repeat(5, 65px);
+  grid-template-rows: 65px;
+  grid-gap: 5px;
+  margin-bottom: 5px;
+}
+
+.Cell {
+  border: 1px solid #ddd;
+  justify-self: stretch;
+  align-self: center;
+  height: 100%;
+  display: grid;
+  place-content: center;
+
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.correct {
+  background-color: rgb(77, 135, 77);
+}
+
+.misplaced {
+  background-color: rgb(146, 146, 15);
+}
+
+.incorrect {
+  background-color: rgb(96, 93, 93);
+}

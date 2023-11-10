@@ -1,0 +1,15 @@
+.banner {
+  position: sticky;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px 30px;
+  color: white;
+}
+
+.happy {
+  background-color: green;
+}
+
+.sad {
+  background-color: red;
+}
